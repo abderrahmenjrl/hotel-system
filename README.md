@@ -3,24 +3,7 @@
 ## Implementation of the Requirements
 
 ### Number of rooms and room numbering
-
-The hotel is initialized with an even number of rooms, specified when creating the `Hotel` object. The constructor creates exactly half standard rooms and half business rooms, and shuffles their order. Room numbers are assigned automatically. The graphical interface also allows the user to add any positive number of room pairs, each containing one room of each class, while preserving the required proportions.
-
-### Room occupancy
-
-A room can accommodate at most one guest at a time. During registration, the hotel searches for the first available room and assigns the guest to it. The room's current guest determines whether it is free or occupied, and the graphical interface represents these two states using different background colours.
-
-### Room types and prices
-
-Standard rooms have a default price of 20 EUR, while business rooms cost 50% more. This difference is implemented through inheritance: both room types extend the abstract `Room` class and provide their own implementation of `getPrice()`. The base price can be changed through the **Change base price** option on the home page, and the prices displayed in the room grid are updated accordingly.
-
-### Room and guest details
-
-Each room has a unique number and a price. Each guest is represented by their name and surname. The room grid displays the room number, type, and current price. When the user hovers over an occupied room, the current guest's name and surname appear in a tooltip. Clicking on a room opens a window containing its details, including its number, price, profit, occupancy count, current status, and guest history.
-
-### Changing the hotel configuration
-
-The number of rooms is configurable through the `Hotel` constructor, while additional rooms can be created directly from the graphical interface. The user can specify how many room pairs to add. The base price is also configurable through the interface, making it possible to change the hotel's pricing without modifying the room creation logic.
+The graphical interface also allows the user to add any positive number of room pairs, each containing one room of each class, while preserving the required proportions. The base price can be changed through the **Change base price** option on the home page, and the prices displayed in the room grid are updated accordingly.
 
 ### Guest registration
 
