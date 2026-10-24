@@ -71,3 +71,6 @@ Each room stores its guest history in an `ArrayList<Guest>`. The order of insert
 During initialization, a temporary list of room types is created and shuffled. It contains equal numbers of standard and business rooms, so shuffling randomizes their order without changing their proportions. An enum such as `RoomType` could make these types more readable than Boolean values, but the underlying approach remains the same.
 
 For occupancy reports, the application makes a copy of the room list and sorts that copy by occupancy count, from highest to lowest. This avoids changing the original room order just to display a report. Returning copies from collection getters also prevents callers from directly adding or removing elements in the hotel's internal lists.
+## Use of AI
+
+All design and conception choices were made by me. The model package was written almost entirely manually, as was the controller package. For the graphical interface, I first implemented a simpler version and then used AI to help develop a more sophisticated interface. AI was also used to produce the UML diagram based on a hand-drawn diagram and to help write this README.
