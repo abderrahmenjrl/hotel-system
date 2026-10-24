@@ -12,7 +12,6 @@ import java.util.Locale;
 
 public class HotelView extends JFrame {
 
-    // Actions delegated to the controller.
     public interface Actions {
         Room registerGuest(String name, String surname);
         boolean checkOut(int roomNumber);
