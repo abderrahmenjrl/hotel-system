@@ -3,7 +3,7 @@
 ## Implementation of the Requirements
 
 ### Number of rooms and room pricing
-The graphical interface also allows the user to add any positive number of room pairs, each containing one room of each class, while preserving the required proportions. The base price can be changed through the **Change base price** option on the home page, and the prices displayed in the room grid are updated accordingly.
+The graphical interface allows the user to add any positive number of room pairs, each containing one room of each class, while preserving the required proportions. The base price can be changed through the **Change base price** option on the home page, and the prices displayed in the room grid are updated accordingly.
 
 ### Guest registration
 
